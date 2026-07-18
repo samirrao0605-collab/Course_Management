@@ -88,4 +88,4 @@ SELECT
     e.enrollment_date
 FROM enrollments e
 JOIN users u ON e.user_id = u.user_id
-JOIN courses c ON e.course_id = c.course_i
+JOIN courses c ON e.course_id = c.course_id
